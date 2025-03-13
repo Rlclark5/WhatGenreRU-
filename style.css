@@ -1,0 +1,14 @@
+body{
+     background-color: #9d5e25ff;
+}
+
+h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.img,.main{
+    display:flex;
+    justify-content: center;
+}
