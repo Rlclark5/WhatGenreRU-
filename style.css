@@ -2,13 +2,14 @@ body{
      background-color: #9d5e25ff;
 }
 
-h1{
+h1,h3{
     color: black;
-    display: flex;
-    justify-content: center;
+ display:flex;
+ justify-content: center;
 }
 
-.img,.main{
+.img,.main,.firstq,.secq,.img2,.enter,.answer{
     display:flex;
     justify-content: center;
 }
+
