@@ -1,5 +1,6 @@
 body{
-     background-color: #9d5e25ff;
+     background-color: #808080;
+     
 }
 
 h1,h3{
@@ -8,7 +9,7 @@ h1,h3{
  justify-content: center;
 }
 
-.img,.main,.firstq,.secq,.img2,.enter,.answer{
+.img,.main,.firstq,.secq,.img2,.enter,.answer,.classicalIMG,.jazzIMG{
     display:flex;
     justify-content: center;
 }

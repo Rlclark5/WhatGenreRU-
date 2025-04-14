@@ -8,6 +8,10 @@ let enter = document.querySelector(".enter");
 console.log(enter);
 let answer = document.querySelector(".answer");
 console.log(answer);
+let jazz = document.querySelector(".jazzIMG");
+let classical = document.querySelector(".classicalIMG");
+jazz.style.display = "none";
+classical.style.display = "none";
 
 
 enter.onclick = function(){
@@ -19,6 +23,7 @@ console.log(answer2);
 
 if(answer1 === "Structured" && answer2 === "Beethoven"){
   answer.innerHTML = "You’re a classicalist. You loved sight reading and stressing 25/8. REFRESH AND TRY AGAIN";
+  classical.style.display = "block";
     console.log("one");
 } else if(answer1 === "Improvise" && answer2 === "Beethoven"){
     answer.innerHTML = "You prefer jazz music but you have a little structured side. I like that. REFRESH AND TRY AGAIN";
@@ -26,5 +31,6 @@ if(answer1 === "Structured" && answer2 === "Beethoven"){
     answer.innerHTML = "You prefer classical music but you have a little funk to ya. I like that. REFRESH AND TRY AGAIN";
 } else if(answer1 === "Improvise" && answer2 === "Miles Davis"){
     answer.innerHTML = "You’re into the jazz scenery I see. Let me hear a solo! REFRESH AND TRY AGAIN";
+    jazz.style.display = "block";
 }
 };
