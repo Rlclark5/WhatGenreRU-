@@ -9,7 +9,7 @@ h1,h3{
  justify-content: center;
 }
 
-.img,.main,.firstq,.secq,.img2,.enter,.answer,.classicalIMG,.jazzIMG{
+.img,.main,.firstq,.secq,.img2,.enter,.answer,.xy,.yz{
     display:flex;
     justify-content: center;
 }
