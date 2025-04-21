@@ -1,6 +1,7 @@
 body{
      background-color: #808080;
      
+     
 }
 
 h1,h3{
@@ -9,7 +10,13 @@ h1,h3{
  justify-content: center;
 }
 
-.img,.main,.firstq,.secq,.img2,.enter,.answer,.xy,.yz{
+.img,.firstq,.secq,.img2,.enter,.answer,.xy,.yz{
+    display:flex;
+    justify-content: center;
+}
+
+.main{
+    margin: 0 auto;
     display:flex;
     justify-content: center;
 }
